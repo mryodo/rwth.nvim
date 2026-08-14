@@ -72,7 +72,7 @@ function M.get_hl(c)
     MiniPickPromptCaret       = { bold = true, bg = c.fg },
     MiniPickPromptPrefix      = { fg = c.ministnorfg, bold = true, bg = c.fg },
     MiniPickMatchCurrent      = { bg = c.bg, fg = c.fg },
-    MiniPickMatchRanges       = { fg = c.const },
+    MiniPickMatchRanges       = { fg = c.rwthorange100 },
 
     -- MiniCompletionActiveParameter = { bg = c.const },
     MiniStatuscolumnSepCursor = { fg = c.info },
