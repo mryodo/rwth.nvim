@@ -78,7 +78,11 @@ function M.get_hl(c)
     MiniStatuscolumnSepCursor = { fg = c.info },
     MiniStatuscolumnDim       = { fg = c.info },
 
-    BentoNormal               = { bg = c.rwthblau25, fg = c.rwthblau100 }
+    BentoNormal               = { bg = c.rwthblau25, fg = c.rwthblau100 },
+    MiniPickDiagnosticError   = { fg = "#ff5555", bold = true },
+    MiniPickDiagnosticWarn    = { fg = "#ffaa00", bold = true },
+    MiniPickDiagnosticInfo    = { fg = "#5fd7ff" },
+    MiniPickDiagnosticHint    = { fg = "#7bd88f" },
   }
 end
 
