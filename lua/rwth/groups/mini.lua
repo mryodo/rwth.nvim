@@ -79,10 +79,10 @@ function M.get_hl(c)
     MiniStatuscolumnDim       = { fg = c.info },
 
     BentoNormal               = { bg = c.rwthblau25, fg = c.rwthblau100 },
-    MiniPickDiagnosticError   = { fg = "#ff5555", bold = true },
-    MiniPickDiagnosticWarn    = { fg = "#ffaa00", bold = true },
-    MiniPickDiagnosticInfo    = { fg = "#5fd7ff" },
-    MiniPickDiagnosticHint    = { fg = "#7bd88f" },
+    MiniPickDiagnosticError   = { fg = c.rwthmagenta100, bold = true },
+    MiniPickDiagnosticWarn    = { fg = c.rwthorange100, bold = true },
+    MiniPickDiagnosticInfo    = { fg = c.rwthblau100 },
+    MiniPickDiagnosticHint    = { fg = c.rwthpetrol100 },
   }
 end
 
