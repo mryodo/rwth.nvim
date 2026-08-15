@@ -1,5 +1,6 @@
 local Utils = require("rwth.utils")
 
+
 local M = {}
 
 --- Get base highlight groups, see `:h highlight-groups`

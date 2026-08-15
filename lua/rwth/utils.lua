@@ -112,18 +112,7 @@ function M.reload()
     end
   end
 
-
-
-  -- vim.api.nvim_create_autocmd("VimLeave", {
-  --   callback = function()
-  --     io.write("\027]112\027\\") -- reset cursor color
-  --     io.write("\027]117\027\\") -- reset cursor text color
-  --   end,
-  -- })
-  --
-
-
-  vim.notify("rwth reloaded", vim.log.levels.WARN)
+  vim.notify("rwth reloaded", vim.log.levels.INFO)
   vim.cmd.colorscheme(vim.g.colors_name)
 end
 
