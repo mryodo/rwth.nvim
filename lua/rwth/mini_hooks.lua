@@ -245,3 +245,5 @@ function M.central_files()
     end,
   })
 end
+
+return M
