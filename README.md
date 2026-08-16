@@ -19,9 +19,9 @@
 </details>
 
 <details>
-<summary>`mini-start`</summary>
-|                | Dark Theme                                                                                                         | Light Theme                                                                                                         |
-| -------------- | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
+<summary>mini-start</summary>
+|  | Dark Theme        | Light Theme                        |
+| ----- | ------------ | ----------------------------------- |
 | `mini-start` | <img src="https://github.com/mryodo/rwth.nvim/blob/main/assets/start-dark.png?raw=true" width="600" alt="rwth"  /> | <img src="https://github.com/mryodo/rwth.nvim/blob/main/assets/start-light.png?raw=true" width="600" alt="rwth"  /> |
 </details>
 
