@@ -109,7 +109,7 @@ function M.central_pick()
     group = aug,
     callback = function(args)
       if vim.api.nvim_buf_is_valid(args.buf)
-          and vim.bo[args.buf].filetype == "minipick" then
+          and (vim.bo[args.buf].filetype == "minipick" or vim.bo[args.buf].filetype == "TelescopePrompt") then
         apply_to_minipick_windows_later()
       end
     end,
