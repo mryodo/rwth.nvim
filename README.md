@@ -4,4 +4,4 @@
     <p>A minimalist(-ish) theme for <a href="https://github.com/neovim/neovim">Neovim</a>, written in Lua</p>
 </div>
 
-<img src="https://raw.githubusercontent.com/mryodo/rwth.nvim/refs/heads/main/assets/title-dark.png" width="1509" height="1186" alt="rwth"  />
+<img src="https://github.com/mryodo/rwth.nvim/blob/main/assets/completion-dark.png?raw=true" width="1509" height="1186" alt="rwth"  />
