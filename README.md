@@ -48,7 +48,9 @@ Using `vim.pack`:
 ```lua
   vim.pack.add({ src =  "https://github.com/mryodo/rwth.nvim" })
   require("rwth").setup({
-    transparent = false
+    transparent = false,
+    minipickstyle = true,
+    minifilesstyle = true,
   })
   vim.cmd("colorscheme rwth-dark")
 ```

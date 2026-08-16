@@ -45,6 +45,8 @@
 ---@class rwth.Config
 --- User configuration options for the theme
 ---@field transparent? boolean
+---@field minipickstyle? boolean
+---@field minifilesstyle? boolean
 ---@field theme? table<"dark"|"light", string>
 ---@field cache? boolean
 ---@field styles? table<string, vim.api.keyset.highlight>

@@ -3,8 +3,12 @@ local M = {}
 ---@param opts rwth.Config|nil
 function M.setup(opts)
   require("rwth.config").setup(opts)
-  require("rwth.mini_hooks").central_pick()
-  require("rwth.mini_hooks").central_files()
+  if opts.mini_hooks.pick then
+    require("rwth.mini_hooks").central_pick()
+  end
+  if opts.mini_hooks.files then
+    require("rwth.mini_hooks").central_files()
+  end
 
   -- Reload the colorscheme with :RWTHFetch
   vim.api.nvim_create_user_command("RWTHFetch", function()
