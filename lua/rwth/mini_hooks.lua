@@ -49,7 +49,6 @@ function M.central_pick()
     DiagnosticFloatingWarn     = "MiniPickDiagnosticWarn",
     DiagnosticFloatingInfo     = "MiniPickDiagnosticInfo",
     DiagnosticFloatingHint     = "MiniPickDiagnosticHint",
-
     DiagnosticVirtualTextError = "MiniPickDiagnosticError",
     DiagnosticVirtualTextWarn  = "MiniPickDiagnosticWarn",
     DiagnosticVirtualTextInfo  = "MiniPickDiagnosticInfo",
@@ -113,6 +112,41 @@ function M.central_pick()
           and vim.bo[args.buf].filetype == "minipick" then
         apply_to_minipick_windows_later()
       end
+    end,
+  })
+
+  vim.api.nvim_create_autocmd("ColorScheme", {
+    callback = function()
+      vim.api.nvim_set_hl(0, "TelescopeNormal", {
+        link = "MiniFilesNormal",
+      })
+      vim.api.nvim_set_hl(0, "TelescopeBorder", {
+        link = "MiniFilesBorder",
+      })
+      vim.api.nvim_set_hl(0, "TelescopePreviewNormal", {
+        link = "Normal",
+      })
+      vim.api.nvim_set_hl(0, "TelescopeTitle", {
+        link = "MiniFilesTitleFocused",
+      })
+      vim.api.nvim_set_hl(0, "TelescopeResultsNormal", {
+        link = "MiniPickNormal",
+      })
+      vim.api.nvim_set_hl(0, "TelescopeSelection", {
+        link = "PmenuSel",
+      })
+      vim.api.nvim_set_hl(0, "TelescopePromptNormal", {
+        link = "MiniPickPrompt",
+      })
+      vim.api.nvim_set_hl(0, "TelescopePromptTitle", {
+        link = "MiniFilesTitleFocused",
+      })
+      vim.api.nvim_set_hl(0, "TelescopePromptPrefix", {
+        link = "MiniPickPromptCaret",
+      })
+      vim.api.nvim_set_hl(0, "TelescopePromptCounter", {
+        link = "Function",
+      })
     end,
   })
 end

@@ -37,17 +37,17 @@ function M.get_hl(c)
     MiniIconsRed                  = { fg = c.danger },
     MiniIconsYellow               = { fg = c.const },
 
-    MiniNotifyNormal              = { bg = c.info, fg = c.minifilefg },
-    MiniNotifyBorder              = { bg = c.info, fg = c.minifilebg },
+    MiniNotifyNormal              = { bg = c.info, fg = c.minifilesfg },
+    MiniNotifyBorder              = { bg = c.info, fg = c.minifilesbg },
     MiniNotifyTitle               = { bg = c.minifilestitfobg, fg = c.minifilestitfofg, bold = true },
-    MiniNotifyLspProgress         = { bg = c.minifilesbg, fg = c.minifilefg },
+    MiniNotifyLspProgress         = { bg = c.minifilesbg, fg = c.minifilesfg },
 
 
-    MiniFilesNormal             = { bg = c.minifilesbg, fg = c.minifilefg },
+    MiniFilesNormal             = { bg = c.minifilesbg, fg = c.minifilesfg },
 
     MiniFilesNormalInactive     = { bg = c.mybg2 },
     MiniFilesCursorLineInactive = { bg = c.info },
-    MiniFilesBorder             = { bg = c.minifilesbg, fg = c.minifilefg },
+    MiniFilesBorder             = { bg = c.minifilesbg, fg = c.minifilesfg },
     MiniFilesBorderInactive     = { bg = c.minifilesbg, fg = c.mybg },
 
     MiniFilesDirectory          = { fg = c.minifilesfile },
@@ -65,7 +65,7 @@ function M.get_hl(c)
 
     MiniPickNormal            = { bg = c.minifilesbg, fg = c.minifilesfg },
     MiniPickHeader            = { bg = c.minifilesbg, fg = c.minifilesfg },
-    MiniPickBorderText        = { bg = c.minifilestitfobg, fg = c.minifilesfofg },
+    MiniPickBorderText        = { bg = c.minifilestitfobg, fg = c.minifilestitfofg },
     MiniPickBorder            = { bg = c.minifilesbg, fg = c.minifilesfg },
 
     MiniPickPrompt            = { fg = c.ministnorfg, bold = true, bg = c.fg },
