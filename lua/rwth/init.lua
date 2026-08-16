@@ -3,10 +3,10 @@ local M = {}
 ---@param opts rwth.Config|nil
 function M.setup(opts)
   require("rwth.config").setup(opts)
-  if opts.mini_hooks.pick then
+  if (opts == nil) or (opts.minipickstyle == nil) or opts.minipickstyle then
     require("rwth.mini_hooks").central_pick()
   end
-  if opts.mini_hooks.files then
+  if (opts == nil) or (opts.minifilesstyle == nil) or opts.minifilesstyle then
     require("rwth.mini_hooks").central_files()
   end
 

@@ -9,10 +9,8 @@ M.defaults = {
     dark = "dark",
     light = "light",
   },
-  mini_hooks = {
-    files = true,
-    pick = true,
-  },
+  minipickstyle = true,
+  minifilesstyle = true,
   styles = {
     functions = { bold = true },
     keywords = {},
