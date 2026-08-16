@@ -147,6 +147,21 @@ function M.central_pick()
       vim.api.nvim_set_hl(0, "TelescopePromptCounter", {
         link = "Function",
       })
+      vim.api.nvim_set_hl(0, "MyTelescopeDiagnosticError", {
+        link = "MiniPickDiagnosticError"
+      })
+
+      vim.api.nvim_set_hl(0, "MyTelescopeDiagnosticWarn", {
+        link = "MiniPickDiagnosticWarn"
+      })
+
+      vim.api.nvim_set_hl(0, "MyTelescopeDiagnosticInfo", {
+        link = "MiniPickDiagnosticInfo"
+      })
+
+      vim.api.nvim_set_hl(0, "MyTelescopeDiagnosticHint", {
+        link = "MiniPickDiagnosticHint"
+      })
     end,
   })
 end
