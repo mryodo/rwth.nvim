@@ -20,25 +20,33 @@
 
 <details>
 <summary>mini-start</summary>
-|       | Dark Theme        | Light Theme                        |
-| ----- | ------------ | ----------------------------------- |
-| `mini-start` | ![assets/start-dark.png](assets/start-dark.png) | <img src="https://github.com/mryodo/rwth.nvim/blob/main/assets/start-light.png?raw=true" width="600" alt="rwth"  /> |
+
+|              | Dark Theme                                      | Light Theme                                     |
+| ------------ | ----------------------------------------------- | ----------------------------------------------- |
+| `mini-start` | ![assets/start-dark.png](assets/start-dark.png) | ![assets/start-dark.png](assets/start-dark.png) |
+
 </details>
 
 <details><summary>`mini-files`</summary>
+
 |              | Dark Theme                                                                                                         | Light Theme                                                                                                         |
 | ------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
 | `mini-files` | <img src="https://github.com/mryodo/rwth.nvim/blob/main/assets/files-dark.png?raw=true" width="600" alt="rwth"  /> | <img src="https://github.com/mryodo/rwth.nvim/blob/main/assets/files-light.png?raw=true" width="600" alt="rwth"  /> |
+
 </details>
 
 <details><summary>`telescope`</summary>
+
 |             | Dark Theme                                                                                                             | Light Theme                                                                                                             |
 | ----------- | ---------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | `telescope` | <img src="https://github.com/mryodo/rwth.nvim/blob/main/assets/telescope-dark.png?raw=true" width="600" alt="rwth"  /> | <img src="https://github.com/mryodo/rwth.nvim/blob/main/assets/telescope-light.png?raw=true" width="600" alt="rwth"  /> |
+
 </details>
 
 <details><summary>Active `Pmenu`</summary>
+
 |                    | Dark Theme                                                                                                              | Light Theme                                                                                                              |
 | ------------------ | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | **Active `Pmenu`** | <img src="https://github.com/mryodo/rwth.nvim/blob/main/assets/completion-dark.png?raw=true" width="600" alt="rwth"  /> | <img src="https://github.com/mryodo/rwth.nvim/blob/main/assets/completion-light.png?raw=true" width="600" alt="rwth"  /> |
+
 </details>
