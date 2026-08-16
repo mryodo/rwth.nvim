@@ -77,6 +77,29 @@ Theme was built for personal use on top on the [MiniMax config](https://github.c
   - `mini.files` at the bottom with contrasting background;
 - additional styling for `telescope.nvim`.
 
+I am also using a keymap for light/dark switch:
+
+```lua
+  vim.keymap.set(
+    'n',
+    '\\b',
+    function()
+      if vim.o.background == "light" then
+        vim.o.background = "dark"
+        vim.cmd.colorscheme("rwth-dark")
+        vim.cmd("RWTHFetch")
+        vim.cmd("set guicursor=n-v-c:block-Cursor/lCursor,i-ci-ve:ver25-Cursor/lCursor,r-cr:hor20,o:hor50")
+      else
+        vim.o.background = "light"
+        vim.cmd.colorscheme("rwth-light")
+        vim.cmd("RWTHFetch")
+        vim.cmd("set guicursor=n-v-c:block-Cursor/lCursor,i-ci-ve:ver25-Cursor/lCursor,r-cr:hor20,o:hor50")
+      end
+    end,
+    { desc = "new Toggle 'background'" }
+  )
+```
+
 ## Known artifacts
 
 - [ ] preview for `mini.pick` uses contrasting background and destroys the text. should be changed in accordance with `telescope`
