@@ -62,3 +62,32 @@ end)
 ```
 
 to reload the colorscheme again.
+
+## Features
+
+The theme based its architecture entirely on the incredible [koda.nvim](https://github.com/oskarnurm/koda.nvim/tree/main). **Please support @oskarnurm !**
+
+Theme was built for personal use on top on the [MiniMax config](https://github.com/nvim-mini/MiniMax). **Please support @echasnowski !**
+
+- light (`rwth-light`) and dark (`rwth-dark`) colorschemes based on the RWTH colors;
+- plugin support inherited from [koda.nvim](https://github.com/oskarnurm/koda.nvim/tree/main#supported-plugins);
+- additional highlights for [bento.nvim](https://github.com/serhez/bento.nvim);
+- additional styling for [mini.nvim](https://github.com/nvim-mini/mini.nvim/tree/bcb4b2688b38f5c48ada025abe130d41840e11d5)
+  - centered `mini.pick` with contrasting background;
+  - `mini.files` at the bottom with contrasting background;
+- additional styling for `telescope.nvim`.
+
+## Known artifacts
+
+- [ ] preview for `mini.pick` uses contrasting background and destroys the text. should be changed in accordance with `telescope`
+- [ ] literally everything is horrible, please push problems!
+
+## Extras
+
+Extra color configs for [Ghostty](https://ghostty.org/), [Lazygit](https://github.com/jesseduffield/lazygit), and [Kitty](https://sw.kovidgoyal.net/kitty/) can be found in [extras](extras/). To use them, refer to their respective documentation.
+
+---
+
+<div align="center">
+  <h2>no one of us can be free until everybody is free</h2>
+</div>
