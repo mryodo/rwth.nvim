@@ -22,7 +22,7 @@
 <summary>mini-start</summary>
 |       | Dark Theme        | Light Theme                        |
 | ----- | ------------ | ----------------------------------- |
-| `mini-start` | <img src="https://github.com/mryodo/rwth.nvim/blob/main/assets/start-dark.png?raw=true" width="600" alt="rwth"  /> | <img src="https://github.com/mryodo/rwth.nvim/blob/main/assets/start-light.png?raw=true" width="600" alt="rwth"  /> |
+| `mini-start` | ![assets/start-dark.png](assets/start-dark.png) | <img src="https://github.com/mryodo/rwth.nvim/blob/main/assets/start-light.png?raw=true" width="600" alt="rwth"  /> |
 </details>
 
 <details><summary>`mini-files`</summary>
