@@ -111,6 +111,8 @@ I am also using a keymap for light/dark switch:
 
 Extra color configs for [Ghostty](https://ghostty.org/), [Lazygit](https://github.com/jesseduffield/lazygit), and [Kitty](https://sw.kovidgoyal.net/kitty/) can be found in [extras](extras/). To use them, refer to their respective documentation.
 
+A [lualine](https://github.com/nvim-lualine/lualine.nvim) theme follows the active light/dark palette: `require("lualine").setup({ options = { theme = "rwth" } })`.
+
 ---
 
 <div align="center">
